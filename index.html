@@ -35,10 +35,14 @@
 		</div>
 	</div>
 </div>
-<div class="footer">
-	Copyright &copy;  Ilya_DM
-<div>
 
+<div class="footer"><div>
+
+<script>
+    const footer = document.getElementsByClassName('footer')[0];
+    const currentDate = new Date();
+    footer.innerHTML = `Copyright © ${currentDate.getFullYear()} Ilya_DM`
+</script>
 
 </body>
 </html>
